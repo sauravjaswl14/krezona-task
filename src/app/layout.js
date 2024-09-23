@@ -18,7 +18,7 @@ const geistMonaSans = localFont({
 });
 
 export const metadata = {
-  title: "Krezona",
+  title: "Krezona Task",
   description: "Developed by saurav jaiswal",
 };
 {
