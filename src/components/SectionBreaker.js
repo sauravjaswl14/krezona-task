@@ -4,7 +4,7 @@ import sectionBreakerImg from "@/images/sectionBreakerImg.png";
 
 function SectionBreaker() {
   return (
-    <div className="my-20 p-5 md:py-10 h-[280.85px] w-screen bg-[#86a4af] flex justify-center items-center">
+    <div className="my-20 p-5 md:py-10 md:px-48 h-[280.85px] w-screen bg-[#86a4af] flex justify-center items-center">
       <div className="w-full flex justify-between items-center">
         <div className="text-[#fff] font-[500] flex flex-col space-y-5">
           <h2 className="text-[24px]  max-w-[189px] md:max-w-[588px]">

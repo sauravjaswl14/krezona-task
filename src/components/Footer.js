@@ -9,9 +9,9 @@ function Footer() {
   return (
     <footer>
       <ReferSomeoneSection />
-      <div className="text-[#1f1f1f] p-5 flex flex-col space-y-8 md:space-y-0 md:flex-row md:justify-between">
+      <div className="text-[#1f1f1f] p-5 md:px-48 flex flex-col space-y-8 md:space-y-0 md:flex-row md:justify-between">
         <div className="flex flex-col space-y-4">
-          <h4 className=" text-[16px] font-[500] md:text-[20px] uppercase">
+          <h4 className=" text-[16px] md:text-[20px] uppercase font-semibold">
             Navigation
           </h4>
           <div className="flex flex-col space-y-3">
@@ -33,7 +33,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col space-y-4">
-          <h4 className=" text-[16px] font-[500] md:text-[20px] uppercase">
+          <h4 className=" text-[16px] md:text-[20px] uppercase font-semibold">
             What we do
           </h4>
           <div className="flex flex-col space-y-3">
@@ -52,7 +52,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col space-y-4">
-          <h4 className=" text-[16px] font-[500] md:text-[20px] uppercase">
+          <h4 className=" text-[16px] md:text-[20px] uppercase font-semibold">
             Legal
           </h4>
           <div className="flex flex-col space-y-3">
@@ -68,7 +68,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col space-y-4">
-          <h4 className=" text-[16px] font-[500] md:text-[20px] uppercase">
+          <h4 className=" text-[16px] md:text-[20px] uppercase font-semibold">
             Talk to us
           </h4>
           <div className="flex flex-col space-y-3">
@@ -82,7 +82,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="border-t-2 border-[#ccc] py-4 flex justify-between items-center">
+      <div className="p-5 md:px-48 md:border-t-2 border-[#ccc] py-4 flex justify-between items-center">
         <h1 className="uppercase text-[#2e4d70] text-[32px] md:text-[40px] font-[800]">
           Logo
         </h1>
@@ -101,7 +101,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="md:hidden text-[#1f1f1f]">
+      <p className="md:hidden px-5 text-[#1f1f1f]">
         © 2019 Krezona pvt. ltd. All Rights Reserved.
       </p>
     </footer>

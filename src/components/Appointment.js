@@ -6,7 +6,7 @@ import appointmentIcon from "@/images/services-head.png";
 function Appointment() {
   return (
     <div>
-      <section className="my-20 flex flex-col space-y-5 items-center md:space-y-0 md:flex-row md:space-x-20 md:items-center md:justify-center">
+      <section className="p-5 my-20 flex flex-col space-y-5 items-center md:space-y-0 md:flex-row md:space-x-20 md:items-center md:justify-center">
         <div className="flex flex-col space-y-8">
           <div className="flex flex-col space-y-5">
             <div className="flex space-x-4 items-center">

@@ -5,7 +5,7 @@ import hamburger from "../images/hamburger.svg";
 
 function Navbar() {
   return (
-    <nav className="bg-white z-50  md:fixed top-0 w-full md:h-[99px] md:py-5 xl:px-10 flex justify-center items-center md:border-b-2 md:border-[#ebebeb]">
+    <nav className="bg-white z-50 fixed top-0 left-0 w-full md:h-[99px] md:py-5 xl:px-10 flex justify-center items-center md:border-b-2 md:border-[#ebebeb]">
       <div className="hidden w-full md:flex justify-around items-center">
         <h2 className="w-[122px] text-[40px] uppercase font-extrabold text-[#3d3d4e]">
           Logo

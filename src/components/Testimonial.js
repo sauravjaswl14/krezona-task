@@ -5,7 +5,7 @@ import playButton from "@/images/Vector.png";
 import playBtn from "@/images/playBtn.png";
 function Testimonial() {
   return (
-    <div className="my-20 w-full bg-[#d9d9d9] p-5 md:py-10 md:px-16 flex justify-center items-center">
+    <div className="my-20 w-full bg-[#d9d9d9] p-5 md:py-10 md:px-10 flex justify-center items-center">
       <div className="flex flex-col space-y-5 md:flex-row md:space-x-10 ">
         <div className="flex flex-col space-y-5">
           <div className="flex space-x-3 items-center">
@@ -14,7 +14,7 @@ function Testimonial() {
               Testimonial
             </h3>
           </div>
-          <h4 className="text-[#000] text-[24px] leading-tight md:text-[40px] md:max-w-[383px] font-[500] font-poppins">
+          <h4 className="text-[#000] capitalize text-[24px] leading-tight md:whitespace-nowrap md:text-[40px] md:max-w-[383px] font-[500] font-poppins">
             Our success stories
           </h4>
           <p className="text-base max-w-[390px] md:max-w-[405px] md:text-[20px]">

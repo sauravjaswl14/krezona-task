@@ -17,6 +17,10 @@ function Blogs() {
       </h3>
 
       <BlogsSection />
+
+      <button className="hidden py-3 w-[128px] md:w-[201px] bg-[#3d3d4e] md:flex justify-center items-center rounded-md text-[#fff] md:text-[18px]">
+        View all
+      </button>
     </section>
   );
 }

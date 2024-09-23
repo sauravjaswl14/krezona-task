@@ -10,7 +10,7 @@ import Footer from "./Footer";
 function Services() {
   return (
     <>
-      <section className="mt-20 flex flex-col justify-center items-center">
+      <section className="mt-[740px] md:-mt-40 flex z-50 flex-col justify-center items-center">
         <div className=" flex flex-col space-y-10 items-center">
           <div className="flex flex-col space-y-5 items-center">
             <div className="flex space-x-2 items-center">
@@ -29,11 +29,11 @@ function Services() {
           </button>
         </div>
       </section>
-      <Testimonial />
+      {/* <Testimonial />
       <Appointment />
       <Blogs />
       <SectionBreaker />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

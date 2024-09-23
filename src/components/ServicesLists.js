@@ -60,7 +60,7 @@ function ServicesLists() {
                 <Image src={icon} width={30} height={30} alt={title} />
               </div>
 
-              <h4 className="text-base md:text-[24px] text-center text-[#1f1f1f] font-[500]">
+              <h4 className="text-[16px] font-semibold md:text-[24px] text-center text-[#1f1f1f]">
                 {title}
               </h4>
               <p className="text-[14px] md:text-[17px] text-center text-[#292929]">

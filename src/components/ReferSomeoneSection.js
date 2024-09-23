@@ -2,7 +2,7 @@ function ReferSomeoneSection() {
   return (
     <section className="mb-5 md:mb-10 flex justify-center items-center">
       <div className="flex flex-col space-y-5">
-        <h4 className="text-center text-[24px] font-[600] text-[#1f1f1f] md:text-[40px]">
+        <h4 className="text-center text-[24px] font-[600] max-w-[316px] md:max-w-[791px] text-[#1f1f1f] md:text-[40px]">
           Overcome Ignorance and Fight for Equality
         </h4>
 
