@@ -14,7 +14,7 @@ function Services() {
         <div className=" flex flex-col space-y-10 items-center">
           <div className="flex flex-col space-y-5 items-center">
             <div className="flex space-x-2 items-center">
-              <Image src={serviceHeaderImg} />
+              <Image src={serviceHeaderImg} alt="services image" />
               <h4 className="uppercase text-[#2e4d70] font-[600] text-[12px] md:text-[18px]">
                 Our Services
               </h4>

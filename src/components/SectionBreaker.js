@@ -12,7 +12,7 @@ function SectionBreaker() {
           </h2>
           <div className="flex space-x-5 items-center">
             <p className="text-[16px] underline ">
-              Fill in a form and we'll do the rest
+              Fill in a form and we&apos;ll do the rest
             </p>
             <Image src={arrow} alt="redirect icon" />
           </div>

@@ -19,8 +19,8 @@ function Appointment() {
               Wanna book an appointment
             </h4>
             <p className=" text-[16px] max-w-[390px] md:text-[20px] md:max-w-[590px]">
-              At Impact Disability Support Service, we're here to help you every
-              step of the way. Making an appointment is simple and easy.
+              At Impact Disability Support Service, we&apos;re here to help you
+              every step of the way. Making an appointment is simple and easy.
             </p>
           </div>
 

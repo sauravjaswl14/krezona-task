@@ -15,7 +15,7 @@ export function Features() {
         const { id, feature } = feat;
         return (
           <div key={id} className="flex space-x-5 items-center">
-            <Image src={bulletImg} />
+            <Image src={bulletImg} alt="check icon" />
             <p className="text-[16px] md:text-[20px] font-[500]">{feature}</p>
           </div>
         );

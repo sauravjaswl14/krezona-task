@@ -21,7 +21,7 @@ function BookAppointment() {
     <div className="flex flex-col space-y-6">
       {appointmentData.map((data) => {
         return (
-          <div className="flex space-x-5">
+          <div key={data.id} className="flex space-x-5">
             <div className="bg-[#2e4d70] rounded-full p-2 w-[34px] h-[34px] text-white flex justify-center items-center">
               <p>{data.id}</p>
             </div>

@@ -34,15 +34,15 @@ function Hero() {
               <div className="flex flex-col">
                 {/*  */}
                 <div className="relative">
-                  <Image src={img1} className="-mt-[1px]" />
+                  <Image src={img1} className="-mt-[1px]" alt="hero image" />
                   <div className="absolute -bottom-6 right-[42%] w-[47.34px] h-[47.34px] rounded-full bg-[#fff] flex justify-center items-center">
                     <div className="w-[29.9px] h-[28.9px] rounded-full bg-[#0caf7f]"></div>
                   </div>
                 </div>
                 {/*  */}
                 <div className="flex">
-                  <Image src={img2} />
-                  <Image src={img3} />
+                  <Image src={img2} alt="hero image" />
+                  <Image src={img3} alt="hero image" />
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ function Breaker() {
               disabilities,
             </p>
           </div>
-          <Image src={sectionBreakerImg} />
+          <Image src={sectionBreakerImg} alt="breaker image" />
           <p className="text-[16px] md:text-[20px] max-w-[390px] md:max-w-[407px]">
             Impact care seeks to provide good quality services for people with
             disabilities, ensuring that their individual
